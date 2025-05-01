@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: grebes
+Version: 0.1.0
+Summary: 🕵️‍♂️ Grebes: lightweight, nature-inspired data quality auditor
+Author: Your Name
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.7
+Requires-Dist: pandas>=1.0.0
+Requires-Dist: numpy>=1.18.0
+Requires-Dist: openpyxl>=3.0.0
+Dynamic: author
+Dynamic: classifier
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
