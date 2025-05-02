@@ -1,3 +1,7 @@
+<center>
+![grebes_banner_fixed](https://github.com/user-attachments/assets/f172f0df-a198-44cf-97a2-50ca9b06aa36)
+</center>
+
 # Grebes
 
 🕵️‍♂️ **Grebes** — A lightweight, nature-inspired data quality auditor for structured datasets.
