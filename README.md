@@ -82,6 +82,8 @@ grebes --help
 
 … and so on for each column …
 
+```
+
 </details>
 
 ---
