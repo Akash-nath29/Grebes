@@ -1,6 +1,8 @@
 
 ![grebes_banner_fixed](https://github.com/user-attachments/assets/f172f0df-a198-44cf-97a2-50ca9b06aa36)
 
+<a href="https://www.producthunt.com/posts/grebes?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-grebes" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=960347&theme=light&t=1746187472730" alt="Grebes - Lightweight&#0032;data&#0032;sanity&#0032;checks&#0032;for&#0032;busy&#0032;devs&#0032;&#0038;&#0032;data&#0032;teams&#0046; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 # Grebes
 
 🕵️‍♂️ **Grebes** — A lightweight, nature-inspired data quality auditor for structured datasets.
