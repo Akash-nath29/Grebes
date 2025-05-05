@@ -1,2 +1,6 @@
 env/
 .pypirc
+*.csv
+build/
+dist/
+*.egg-info

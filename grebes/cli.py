@@ -14,9 +14,23 @@ def read_dataset(path: str) -> pd.DataFrame:
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: grebes <file.(csv|xlsx|json|jsonl)>")
+        print("Usage: grebes <file> [--output report.json|report.md]")
         sys.exit(1)
 
     path = sys.argv[1]
+    output_path = None
+    if "--output" in sys.argv:
+        idx = sys.argv.index("--output")
+        if idx + 1 < len(sys.argv):
+            output_path = sys.argv[idx + 1]
+        else:
+            print("Missing value for --output")
+            sys.exit(2)
+
     df = read_dataset(path)
-    GrebesAuditor(df).print_report()
+    auditor = GrebesAuditor(df)
+    auditor.print_report()
+
+    if output_path:
+        auditor.save(output_path)
+        print(f"\n📝 Report saved to {output_path}")
